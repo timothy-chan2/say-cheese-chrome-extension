@@ -10,5 +10,11 @@
     "32": "images/icon32.webp",
     "48": "images/icon48.webp",
     "128": "images/icon128.webp"
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": [ "<all_urls>" ],
+      "js": [ "scripts/cameraify.js" ]
+    }
+  ]
 }
