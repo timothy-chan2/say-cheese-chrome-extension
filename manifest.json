@@ -16,5 +16,9 @@
       "matches": [ "<all_urls>" ],
       "js": [ "scripts/cameraify.js" ]
     }
-  ]
+  ],
+  "browser_action": {
+    "default_popup": "menu.html",
+    "default_title": "Say Cheese Chrome Extension"
+  }
 }
