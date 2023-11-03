@@ -4,3 +4,12 @@ const cameraify = () => {
     img.srcset = img.src;
   });
 }
+
+// Listen for messages on the content page
+chrome.runtime.onMessage.addListener(
+  (request, sender, sendResponse) => {
+    if (request.action === 'cameraify') {
+      cameraify();
+    }
+  }
+);
