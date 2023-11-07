@@ -1,0 +1,21 @@
+body {
+  width: 400px;
+  color: #fff;
+  background-color: #342e42;
+  text-align: center;
+}
+
+#cameraify {
+  border: none;
+  border-radius: 5px;
+  color: #222;
+  background-color: #8fabf9;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+}
+
+#cameraify:is(:hover, :focus, :active) {
+  cursor: pointer;
+  background-color: #658cf7;
+}
