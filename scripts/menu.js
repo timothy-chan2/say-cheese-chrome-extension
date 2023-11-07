@@ -3,3 +3,5 @@ const sendCameraifyMsg = () => {
     chrome.tabs.sendMessage(tabs[0].id, { action: 'cameraify' });
   });
 }
+
+document.querySelector('#cameraify').addEventListener('click', event => sendCameraifyMsg());
