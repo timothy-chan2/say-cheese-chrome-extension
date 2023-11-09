@@ -1,8 +1,12 @@
 body {
-  width: 400px;
+  width: 360px;
   color: #fff;
   background-color: #342e42;
   text-align: center;
+}
+
+h1 {
+  font-size: 1.8em;
 }
 
 #cameraify {
